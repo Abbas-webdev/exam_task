@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Colorlib</title>
+</head>
+
+<body>
+    <header>
+        <!-- <div class="head1">
+            <div class="logo">
+                <a href="">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <a class="martini" href="">+ MARTINE </a>
+            </div>
+            <div class="head1-icon">
+                <div class="head1-icon2">
+                    <a href="" class="desc"><i class="fa-solid fa-desktop"></i></a>
+                    <a href="" class="desc"><i class="fa-solid fa-tablet"></i></a>
+                    <a href="" class="desc"><i class="fa-solid fa-mobile"></i></a>
+                </div>
+                <div class="head1-icon1">
+                    <a href="" style="color: rgb(3, 172, 3);"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href=""><i class="fa-solid fa-xmark" style="color: rgba(255, 255, 255, 0.455);"></i></a>
+                </div>
+            </div>
+        </div> -->
+        <div class="head2">
+            <div class="container">
+                <div class="head2-left">
+                    <ul>
+                        <li><a href="" style="color: orangered;">Top destinations</a></li>
+                        <li><a href="">Asia</a></li>
+                        <li><a href="">Europe</a></li>
+                        <li><a href="">America</a></li>
+                    </ul>
+                </div>
+                <div class="head2-right">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-skype"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-solid fa-phone-volume" style="color: orangered;"></i>+880 356 257 142</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="head3">
+
+            <nav class="bg-white fixed top-[88px] md:top-[60px] w-full z-20 border-b border-gray-200">
+                <div class="w-full md:w-[85%] flex flex-wrap items-center justify-between mx-auto p-4">
+                    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                        <img id="logo" src="img/logo.png.webp" class="h-8" alt="Flowbite Logo">
+
+                    </a>
+                    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                        <button id="btn20" type="button"
+                            class="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">
+                            Book Now
+                        </button>
+                        <button data-collapse-toggle="navbar-sticky" type="button"
+                            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            aria-controls="navbar-sticky" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 17 14">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+                        id="navbar-sticky">
+                        <ul
+                            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-200 md:bg-white md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-[#0C3E72] hover:text-blue-700 md:p-0">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-[#0C3E72] hover:text-blue-700 md:p-0">About</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-3 text-[#0C3E72] hover:text-blue-700 md:p-0">Pacgages</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-[#0C3E72] hover:text-blue-700 md:p-0">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-[#0C3E72] hover:text-blue-700 md:p-0">Pages</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-3 text-[#0C3E72] hover:text-blue-700 md:p-0">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="sec1">
+            <div class="container">
+                <div class="contmain">
+                    <h1>Saintmartine</h1>
+                    <p class="sec1txt">Let’s start your journey with us, your dream will come true</p>
+                    <button class="btn">Discover Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec2">
+            <div class="container">
+                <div class="check">
+                    <div class="checkhed">
+                        <h6 class="checkhed1">Hotel</h6>
+                    </div>
+                    <div class="search-box">
+                        <form class="form">
+                            <select class="place">
+                                <option>Choose place</option>
+                                <option>One</option>
+                                <option>Two</option>
+                                <option>Three</option>
+                            </select>
+
+                            <input class="date" type="date" placeholder="Check in date">
+                            <input class="date" type="date" placeholder="Check out date">
+
+                            <select class="person">
+                                <option>Person</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+
+                            <button class="btn1" type="submit" style="color: white;">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec3">
+            <div class="container">
+                <h2>Top Places to visit</h2>
+                <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales grass
+                    is fish whales winged.</p>
+                <div class="cardsimg">
+                    <div class="cardimg1">
+                        <div class="img1">
+                            <img src="img/single_place_1.png.webp" alt="">
+                            <div class="overlay">
+                                <span class="tag">Trawel</span>
+                                <h4>Saintmartine Iceland</h4>
+                                <p style=" text-align: left;">Technaf, Bangladesh</p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span style="color: white;">(210 review)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img1">
+                            <img src="img/single_place_3.png.webp" alt="">
+                            <div class="overlay">
+                                <span class="tag">Trawel</span>
+                                <h4>Saintmartine Iceland</h4>
+                                <p style=" text-align: left;">Technaf, Bangladesh</p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span style="color: white;">(210 review)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardimg2">
+                        <div class="img1">
+                            <img src="img/single_place_2.png.webp" alt="">
+                            <div class="overlay">
+                                <span class="tag">Trawel</span>
+                                <h4>Saintmartine Iceland</h4>
+                                <p style=" text-align: left;">Technaf, Bangladesh</p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span style="color: white;">(210 review)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img1">
+                            <img src="img/single_place_4.png.webp" alt="">
+                            <div class="overlay">
+                                <span class="tag">Trawel</span>
+                                <h4>Saintmartine Iceland</h4>
+                                <p style=" text-align: left;">Technaf, Bangladesh</p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span style="color: white;">(210 review)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn2">Discover More</button>
+            </div>
+        </section>
+
+        <section class="sec4 min-h-screen flex items-center justify-center">
+            <div class="w-full flex justify-center items-center px-[15px]">
+                <div id="event-carousel" class="relative w-full max-w-[700px]" data-carousel="slide">
+
+                    <!-- Carousel wrapper -->
+                    <div class="relative h-[500px] overflow-hidden rounded-lg">
+
+                        <!-- Slide 1 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <div class="flex items-center justify-center h-full">
+                                <div
+                                    class="bg-white shadow-lg rounded-lg w-full h-full p-[30px] flex flex-col justify-between">
+                                    <span class="text-red-500 text-base">Upcoming Event</span>
+                                    <h2 class="text-4xl font-bold">Maldeve - Asia</h2>
+                                    <p class="text-gray-600 text-lg">Waters make fish every without firmament saw had.
+                                    </p>
+                                    <p class="text-gray-700 text-lg">Date: 12 Aug 2019</p>
+                                    <p class="text-gray-700 text-lg">Cost: <span
+                                            class="font-semibold text-gray-900">Start from $820</span></p>
+                                    <p class="text-gray-700 text-lg">Organizer: <span
+                                            class="font-semibold text-gray-900">Martine Agency</span></p>
+                                    <p class="text-gray-700 text-lg">Rating: <span class="text-yellow-400">★★★★★</span>
+                                    </p>
+                                    <button id="caruselbtn" class="mt-4 px-6 py-3 bg-red-500 text-white text-lg rounded">Plan
+                                        Details</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <div class="flex items-center justify-center h-full">
+                                <div
+                                    class="bg-white shadow-lg rounded-lg w-full h-full p-[30px] flex flex-col justify-between">
+                                    <span class="text-red-500 text-base">Upcoming Event</span>
+                                    <h2 class="text-4xl font-bold">Dubai - UAE</h2>
+                                    <p class="text-gray-600 text-lg">Morning air subdue. Whales grass is fish whales
+                                        winged.</p>
+                                    <p class="text-gray-700 text-lg">Date: 22 Nov 2020</p>
+                                    <p class="text-gray-700 text-lg">Cost: <span
+                                            class="font-semibold text-gray-900">Start from $1200</span></p>
+                                    <p class="text-gray-700 text-lg">Organizer: <span
+                                            class="font-semibold text-gray-900">Martine Agency</span></p>
+                                    <p class="text-gray-700 text-lg">Rating: <span class="text-yellow-400">★★★★☆</span>
+                                    </p>
+                                    <button id="caruselbtn" class="mt-4 px-6 py-3 bg-red-500 text-white text-lg rounded">Plan
+                                        Details</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <div class="flex items-center justify-center h-full">
+                                <div
+                                    class="bg-white shadow-lg rounded-lg w-full h-full p-[30px] flex flex-col justify-between">
+                                    <span class="text-red-500 text-base">Upcoming Event</span>
+                                    <h2 class="text-4xl font-bold">Rome - Italy</h2>
+                                    <p class="text-gray-600 text-lg">Our air very one. Whales grass is fish whales
+                                        winged.</p>
+                                    <p class="text-gray-700 text-lg">Date: 05 Jan 2021</p>
+                                    <p class="text-gray-700 text-lg">Cost: <span
+                                            class="font-semibold text-gray-900">Start from $950</span></p>
+                                    <p class="text-gray-700 text-lg">Organizer: <span
+                                            class="font-semibold text-gray-900">Martine Agency</span></p>
+                                    <p class="text-gray-700 text-lg">Rating: <span class="text-yellow-400">★★★☆☆</span>
+                                    </p>
+                                    <button id="caruselbtn" class="mt-4 px-6 py-3 bg-red-500 text-white text-lg rounded">Plan
+                                        Details</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Slider controls -->
+                    <button type="button"
+                        class="absolute top-1/2 start-0 z-30 flex items-center justify-center h-12 w-12 rounded-full bg-white/50 hover:bg-white"
+                        data-carousel-prev>
+                        <span class="sr-only">Previous</span>
+                        <svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                    <button type="button"
+                        class="absolute top-1/2 end-0 z-30 flex items-center justify-center h-12 w-12 rounded-full bg-white/50 hover:bg-white"
+                        data-carousel-next>
+                        <span class="sr-only">Next</span>
+                        <svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec5">
+            <div class="container">
+                <h2 class="sec5-hed">Top Hotel & Restaurants</h2>
+                <p class="sec5-text">Waters make fish every without firmament saw had. Morning air subdue. Our. Air very
+                    one. Whales grass
+                    is fish whales winged.</p>
+
+                <div class="cards_h-r">
+                    <div class="cardhotel">
+                        <div class="imghotel">
+                            <img src="img/industries_1.png.webp" alt="">
+                        </div>
+                        <div class="imgtext">
+                            <a href="https://www.trivago.com.tr/tr/lm?themeId=500&search=200-157&sem_keyword=otel%20polonya&sem_creativeid=769482897354&sem_matchtype=e&sem_network=g&sem_device=c&sem_placement=&sem_target=&sem_adposition=&sem_param1=&sem_param2=&sem_campaignid=11403713277&sem_adgroupid=114644241994&sem_targetid=aud-1769366498620:kwd-450088141666&sem_location=1000998&cipc=sem&cip=9019000403&gad_source=1&gad_campaignid=11403713277&gbraid=0AAAAAD6-gN8ow27QONrv8x8XgiyxtvjF6&gclid=CjwKCAjw89jGBhB0EiwA2o1OnxXgJvku3HAhPjYmF_uOdxSJC9ZkzT_X6xH2ZSqamaY-E1nSRvBGKBoCYqAQAvD_BwE"
+                                class="otelplace">Hotel Polonia</a>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span style="color: white;">(210 review)</span>
+                            </div>
+                            <p>London, United Kingdom</p>
+                            <p>From <span>$500</span></p>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="cardhotel">
+                        <div class="imghotel">
+                            <img src="img/industries_2.png.webp" alt="">
+                        </div>
+                        <div class="imgtext">
+                            <a href="https://www.trivago.com.tr/tr/lm?themeId=500&search=200-157&sem_keyword=otel%20polonya&sem_creativeid=769482897354&sem_matchtype=e&sem_network=g&sem_device=c&sem_placement=&sem_target=&sem_adposition=&sem_param1=&sem_param2=&sem_campaignid=11403713277&sem_adgroupid=114644241994&sem_targetid=aud-1769366498620:kwd-450088141666&sem_location=1000998&cipc=sem&cip=9019000403&gad_source=1&gad_campaignid=11403713277&gbraid=0AAAAAD6-gN8ow27QONrv8x8XgiyxtvjF6&gclid=CjwKCAjw89jGBhB0EiwA2o1OnxXgJvku3HAhPjYmF_uOdxSJC9ZkzT_X6xH2ZSqamaY-E1nSRvBGKBoCYqAQAvD_BwE"
+                                class="otelplace">Hotel Polonia</a>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span style="color: white;">(210 review)</span>
+                            </div>
+                            <p>London, United Kingdom</p>
+                            <p>From <span>$500</span></p>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="cardhotel">
+                        <div class="imghotel">
+                            <img src="img/industries_3.png.webp" alt="">
+                        </div>
+                        <div class="imgtext">
+                            <a href="https://www.trivago.com.tr/tr/lm?themeId=500&search=200-157&sem_keyword=otel%20polonya&sem_creativeid=769482897354&sem_matchtype=e&sem_network=g&sem_device=c&sem_placement=&sem_target=&sem_adposition=&sem_param1=&sem_param2=&sem_campaignid=11403713277&sem_adgroupid=114644241994&sem_targetid=aud-1769366498620:kwd-450088141666&sem_location=1000998&cipc=sem&cip=9019000403&gad_source=1&gad_campaignid=11403713277&gbraid=0AAAAAD6-gN8ow27QONrv8x8XgiyxtvjF6&gclid=CjwKCAjw89jGBhB0EiwA2o1OnxXgJvku3HAhPjYmF_uOdxSJC9ZkzT_X6xH2ZSqamaY-E1nSRvBGKBoCYqAQAvD_BwE"
+                                class="otelplace">Hotel Polonia</a>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span style="color: white;">(210 review)</span>
+                            </div>
+                            <p>London, United Kingdom</p>
+                            <p>From <span>$500</span></p>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section sec6 -->
+        <section  class="sec6 bg-[#0c3e72] w-full flex items-center justify-center py-[60px] min-h-[500px]">
+            <!-- Mobil üçün full width, desktop üçün 950px -->
+            <div class="relative overflow-hidden w-[320px] sm:w-[650px] md:w-[970px] ">
+
+                <!-- Track -->
+                <div id="carousel-track" class="flex gap-5 transition-transform duration-500 ease-in-out">
+
+                    <!-- 6 Cards -->
+                    <div
+                        class="w-[300px] h-[350px] bg-[#0E477D] border border-gray-300 rounded-lg shadow-lg shrink-0 m-1 p-5 flex flex-col justify-between text-white">
+                        <div class="text-yellow-400 text-lg">★★★★★</div>
+                        <p class="text-base mt-2 leading-relaxed">
+                            Waters make fish every without firmament saw had. Morning air subdue. Our Air very one
+                            whales grass is fish whales winged night yielding land creeping that seed
+                        </p>
+                        <p class="mt-2 text-base font-semibold">- Allen Miller</p>
+                    </div>
+
+                    <div
+                        class="w-[300px] h-[350px] bg-[#0E477D] border border-gray-300 rounded-lg shadow-lg shrink-0 m-1 p-5 flex flex-col justify-between text-white">
+                        <div class="text-yellow-400 text-lg">★★★★★</div>
+                        <p class="text-base mt-2 leading-relaxed">
+                            Waters make fish every without firmament saw had. Morning air subdue. Our Air very one
+                            whales grass is fish whales winged night yielding land creeping that seed
+                        </p>
+                        <p class="mt-2 text-base font-semibold">- Allen Miller</p>
+                    </div>
+
+                    <div
+                        class="w-[300px] h-[350px] bg-[#0E477D] border border-gray-300 rounded-lg shadow-lg shrink-0 m-1 p-5 flex flex-col justify-between text-white">
+                        <div class="text-yellow-400 text-lg">★★★★★</div>
+                        <p class="text-base mt-2 leading-relaxed">
+                            Waters make fish every without firmament saw had. Morning air subdue. Our Air very one
+                            whales grass is fish whales winged night yielding land creeping that seed
+                        </p>
+                        <p class="mt-2 text-base font-semibold">- Allen Miller</p>
+                    </div>
+
+                    <div
+                        class="w-[300px] h-[350px] bg-[#0E477D] border border-gray-300 rounded-lg shadow-lg shrink-0 m-1 p-5 flex flex-col justify-between text-white">
+                        <div class="text-yellow-400 text-lg">★★★★★</div>
+                        <p class="text-base mt-2 leading-relaxed">
+                            Waters make fish every without firmament saw had. Morning air subdue. Our Air very one
+                            whales grass is fish whales winged night yielding land creeping that seed
+                        </p>
+                        <p class="mt-2 text-base font-semibold">- Allen Miller</p>
+                    </div>
+
+                    <div
+                        class="w-[300px] h-[350px] bg-[#0E477D] border border-gray-300 rounded-lg shadow-lg shrink-0 m-1 p-5 flex flex-col justify-between text-white">
+                        <div class="text-yellow-400 text-lg">★★★★★</div>
+                        <p class="text-base mt-2 leading-relaxed">
+                            Waters make fish every without firmament saw had. Morning air subdue. Our Air very one
+                            whales grass is fish whales winged night yielding land creeping that seed
+                        </p>
+                        <p class="mt-2 text-base font-semibold">- Allen Miller</p>
+                    </div>
+
+                    <div
+                        class="w-[300px] h-[350px] bg-[#0E477D] border border-gray-300 rounded-lg shadow-lg shrink-0 m-1 p-5 flex flex-col justify-between text-white">
+                        <div class="text-yellow-400 text-lg">★★★★★</div>
+                        <p class="text-base mt-2 leading-relaxed">
+                            Waters make fish every without firmament saw had. Morning air subdue. Our Air very one
+                            whales grass is fish whales winged night yielding land creeping that seed
+                        </p>
+                        <p class="mt-2 text-base font-semibold">- Allen Miller</p>
+                    </div>
+
+                </div>
+
+                <!-- Controls -->
+                <button onclick="move(-1)"
+                    class="absolute top-1/2 left-0 -translate-y-1/2 bg-white/70 text-black px-3 py-2 rounded-full">
+                    ❮
+                </button>
+                <button onclick="move(1)"
+                    class="absolute top-1/2 right-0 -translate-y-1/2 bg-white/70 text-black px-3 py-2 rounded-full">
+                    ❯
+                </button>
+            </div>
+        </section>
+
+        <section class="sec7">
+            <div class="container">
+                <h2 class="sec7-hed">Top Hotel & Restaurants</h2>
+                <p class="sec7-text">Waters make fish every without firmament saw had. Morning air subdue. Our. Air very
+                    one. Whales grass
+                    is fish whales winged.
+                </p>
+
+                <div class="servsimgs">
+                    <div class="servsimg">
+                        <img src="img/services_1.png.webp" alt="">
+                        <h6>Transportation</h6>
+                        <p>All transportation cost we bear</p>
+                    </div>
+
+                    <div class="servsimg">
+                        <img src="img/services_2.png.webp" alt="">
+                        <h6>Guidence</h6>
+                        <p>We offer the best guidence for you</p>
+                    </div>
+
+                    <div class="servsimg">
+                        <img src="img/services_3.png.webp" alt="">
+                        <h6>Accomodation</h6>
+                        <p>Luxarious and comfortable</p>
+                    </div>
+
+                    <div class="servsimg">
+                        <img src="img/services_4.png.webp" alt="">
+                        <h6>Transportation</h6>
+                        <p>All transportation cost we bear</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="foot-box">
+            <div class="container">
+                <div class="discover">
+                    <h5>Discover Destination</h5>
+                    <div class="foot-list">
+                        <ul>
+                            <li><a href="">Miami, USA</a></li>
+                            <li><a href="">California, USA</a></li>
+                            <li><a href="">London, UK</a></li>
+                            <li><a href="">Sanintmartine, Bangladesh</a></li>
+                            <li><a href="">Mount Everast, India</a></li>
+                            <li><a href="">Sidney, Australia</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="">Miami, USA</a></li>
+                            <li><a href="">California, USA</a></li>
+                            <li><a href="">London, UK</a></li>
+                            <li><a href="">Sanintmartine, Bangladesh</a></li>
+                            <li><a href="">Mount Everast, India</a></li>
+                            <li><a href="">Sidney, Australia</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="subscribe">
+                    <h5>Subscribe Newsletter</h5>
+                    <div class="foot-list-2">
+                        <div class="form">
+                            <input style="width: 240px;" class="foot-inp" type="text" placeholder="Your Email Address">
+                            <button class="btn5"> <i class="fa-solid fa-paper-plane"></i></button>
+                        </div>
+                        <p>Subscribe our newsletter to get update news and offers</p>
+                    </div>
+                </div>
+                <div class="contact">
+                    <h5>Contact Us</h5>
+                    <p>4156, New garden, New York, USA</p>
+                    <p>+880 362 352 783</p>
+                    <p>contact@martine.com</a></p>
+                    <div class="foot-icon">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot-box1">
+            <p>Copyright ©2025 All rights reserved | This template is made with  by Abbas Tagiyev</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+
+</html>
