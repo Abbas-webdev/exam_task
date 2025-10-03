@@ -86,6 +86,7 @@
 .head2-left ul {
     display: flex;
        justify-content: center;
+       gap: 20px !important;
 
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
@@ -95,6 +96,7 @@
 .head2-right {
     display: flex;
    justify-content: center;
+   gap: 20px !important;
     flex-wrap: wrap;
 }
 
